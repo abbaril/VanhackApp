@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="companyPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="415.0" style="-fx-background-color: #FFF;" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vanhackapp.CompanyRegistrationUiController">
+    <children>
+        <FontAwesomeIcon glyphName="ARROW_LEFT" layoutX="7.0" layoutY="20.0" onMouseClicked="#backToMain" size="1.5em" stroke="WHITE" styleClass="closeBtn" />
+        <FontAwesomeIcon glyphName="CLOSE" layoutX="394.0" layoutY="20.0" onMouseClicked="#closeApp" size="1.5em" stroke="WHITE" styleClass="closeBtn" />
+        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="21.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@vanhack.jpg" />
+            </image>
+        </ImageView>
+        <Label layoutX="21.0" layoutY="132.0" text="Vanhack" textFill="#62bcf4">
+            <font>
+                <Font name="Impact" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="21.0" layoutY="161.0" text="Sign Up" textFill="#2fa3e1">
+            <font>
+                <Font name="Ebrima" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="21.0" layoutY="188.0" prefHeight="27.0" prefWidth="166.0" text="Enter your details below" textFill="#7c7c7c">
+            <font>
+                <Font name="Ebrima" size="14.0" />
+            </font>
+        </Label>
+      <Label fx:id="error_label" layoutX="143.0" layoutY="215.0" prefHeight="29.0" prefWidth="177.0" style="-fx-text-fill: #f45f5f;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+        <JFXTextField fx:id="firstName" focusColor="#2fa3e1" labelFloat="true" layoutX="53.0" layoutY="236.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="250.0" promptText="First Name" unFocusColor="#2fa3e1">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </JFXTextField>
+        <JFXTextField fx:id="lastName" focusColor="#2fa3e1" labelFloat="true" layoutX="53.0" layoutY="286.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="250.0" promptText="Last Name" unFocusColor="#2fa3e1">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </JFXTextField>
+      <JFXTextField fx:id="phone" focusColor="#2fa3e1" labelFloat="true" layoutX="53.0" layoutY="337.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="250.0" promptText="Phone" unFocusColor="#2fa3e1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="website" focusColor="#2fa3e1" labelFloat="true" layoutX="53.0" layoutY="391.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="250.0" promptText="Website" unFocusColor="#2fa3e1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="email" focusColor="#2fa3e1" labelFloat="true" layoutX="53.0" layoutY="440.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="250.0" promptText="E-mail" style="-fx-background-color: #FFF;" styleClass="parent" stylesheets="@stylesheet.css" unFocusColor="#2fa3e1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="confirmEmail" focusColor="#2fa3e1" labelFloat="true" layoutX="53.0" layoutY="492.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="29.0" prefWidth="250.0" promptText="Confirm E-mail" unFocusColor="#2fa3e1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+        <JFXButton fx:id="regBtn" layoutX="53.0" layoutY="534.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#registrationBtn" prefHeight="40.0" prefWidth="250.0" styleClass="loginBtn" text="Register">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </JFXButton>
+    </children>
+</AnchorPane>

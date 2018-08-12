@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.effect.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="parent" prefHeight="200.0" prefWidth="320.0" styleClass="parent" stylesheets="file:/C:/Users/user/Documents/NetBeansProjects/VanhackApp/src/vanhackapp/stylesheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vanhackapp.VanhackMainController">
+    <children>
+        <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="389.0" styleClass="sidebar">
+            <children>
+                <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@vanhack.jpg" />
+                    </image>
+                </ImageView>
+                <Label text="Welcome To" textFill="WHITE">
+                    <font>
+                        <Font name="Ebrima" size="14.0" />
+                    </font>
+                    <effect>
+                        <DropShadow />
+                    </effect>
+                </Label>
+                <Label layoutX="169.0" layoutY="351.0" text="VanHack" textFill="WHITE">
+                    <font>
+                        <Font name="Impact" size="24.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+        <Pane fx:id="contentArea" layoutX="387.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="415.0" style="-fx-background-color: #FFF;" styleClass="parent">
+            <children>
+                <FontAwesomeIcon glyphName="CLOSE" layoutX="394.0" layoutY="20.0" onMouseClicked="#closeApp" size="1.5em" stroke="WHITE" styleClass="closeBtn" />
+                <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="21.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@vanhack.jpg" />
+                    </image>
+                </ImageView>
+                <Label layoutX="21.0" layoutY="132.0" text="VanHack" textFill="#62bcf4">
+                    <font>
+                        <Font name="Impact" size="24.0" />
+                    </font>
+                </Label>
+                <Label layoutX="21.0" layoutY="161.0" text="Sign in" textFill="#2fa3e1">
+                    <font>
+                        <Font name="Ebrima" size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="21.0" layoutY="188.0" prefHeight="27.0" prefWidth="166.0" text="Enter your details below" textFill="#7c7c7c">
+                    <font>
+                        <Font name="Ebrima" size="14.0" />
+                    </font>
+                </Label>
+                <JFXTextField fx:id="email" focusColor="#51abe4" labelFloat="true" layoutX="47.0" layoutY="262.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="250.0" promptText="Email" unFocusColor="#51abe4">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </JFXTextField>
+                <JFXPasswordField fx:id="password" focusColor="#51abe4" labelFloat="true" layoutX="47.0" layoutY="328.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="250.0" promptText="Password" unFocusColor="#51abe4">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </JFXPasswordField>
+                <Label layoutX="181.0" layoutY="377.0" styleClass="link" text="Forget password?" textFill="#2fa3e1">
+                    <font>
+                        <Font name="Ebrima" size="14.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Label>
+                <JFXButton fx:id="loginBtn" layoutX="47.0" layoutY="406.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#userLogin" prefHeight="40.0" prefWidth="250.0" styleClass="loginBtn" text="Login">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+                </JFXButton>
+                <Label layoutX="115.0" layoutY="478.0" prefHeight="20.0" prefWidth="71.0" text="As Talent" textFill="#7c7c7c">
+                    <font>
+                        <Font name="Ebrima" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="184.0" layoutY="478.0" onMouseClicked="#talentRegistration" styleClass="link" text="SignUp" textFill="#2fa3e1">
+                    <font>
+                        <Font name="Ebrima" size="14.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Label>
+                <Label layoutX="100.0" layoutY="505.0" prefHeight="20.0" prefWidth="86.0" text="As Company" textFill="#7c7c7c">
+                    <font>
+                        <Font name="Ebrima" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="184.0" layoutY="505.0" onMouseClicked="#companyRegistraion" styleClass="link" text="SignUp" textFill="#2fa3e1">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font name="Ebrima" size="14.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

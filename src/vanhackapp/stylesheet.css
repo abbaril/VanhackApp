@@ -1,0 +1,128 @@
+.parent{
+    
+    -fx-background-color:white; 
+}
+/* VanhackMainUi sidebar */
+.sidebar{
+    
+    -fx-background-color: #00afe9;
+
+}
+
+.link{
+    -fx-fill: #00afe9;
+}
+.link:hover{
+    
+    -fx-underline: true;
+    
+}
+
+.loginBtn{
+    
+    /*-fx-background-color: #30c8ca;*/
+    -fx-background-color: #00afe9;
+    -fx-text-fill: #FFF;
+    -fx-background-radius: 6px;
+}
+
+.loginBtn:hover{
+    /*-fx-background-color:transparent;*/
+    -fx-text-fill: #FFF;
+    -fx-border-color: #51abe4;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-background-radius: 6px;
+    -fx-border-radius: 6px;
+    
+}
+
+/*end of*/
+
+/*Top right close icon*/
+.closeBtn{
+    -fx-fill: #545454;
+}
+
+.closeBtn:hover{
+    -fx-fill: #ff6666;
+}
+
+/*end of*/
+
+/*Top left icon*/
+.backBtn{
+    -fx-fill: #545454;
+    
+}
+
+.backBtn:hover{
+    -fx-fill: #6747cd;
+}
+/*end of*/
+
+/*.icon{
+    -fx-text-fill: #0675ce;
+}*/
+
+/*Profile sidebar, Icons and buttons*/
+.profile-sidebar{
+    -fx-background-color: #f2f6f9;
+}
+
+.profile-icons{
+    -fx-fill: #2fa4e1;
+}
+
+.profile-sidebar-btns{
+    -fx-text-fill: #2fa4e1;
+}
+
+.profile-sidebar-btns:hover .profile-icons{
+    -fx-background-color: transparent;
+    -fx-fill: transparent;
+}
+/*end of*/
+
+/*Top icons and labels*/
+.top-icons{
+    -fx-fill: #0675ce;
+}
+
+.top-label{
+    -fx-text-fill: #777d80;
+    
+}
+
+.top-label:hover{
+    -fx-background-color: transparent;
+    -fx-text-fill: #0675ce;
+}
+
+.top-pane{
+   -fx-background-color: #f2f6f9;
+   -fx-background-radius: 5px;
+}
+/*end of*/
+
+
+/*center pane, seperator and status-btn*/
+.seperator{
+    -fx-background-color: #00afe9;
+   
+}
+
+.status-btn{
+    -fx-background-color: #ceeade;
+    -fx-background-radius: 8px;
+}
+/*end of*/
+
+
+/*form*/
+.form{
+    -fx-text-fill: #3b362e;
+    -fx-border-color: #51abe4;
+    -fx-border-radius: 6px;
+}
+/*end of*/

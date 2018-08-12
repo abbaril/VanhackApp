@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import com.jfoenix.controls.*?>
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="userPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1040.0" styleClass="parent" stylesheets="file:/C:/Users/user/Documents/NetBeansProjects/VanhackApp/src/vanhackapp/stylesheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vanhackapp.ProfileController">                            
+   <children>
+       
+            <HBox alignment="CENTER" layoutX="359.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="64.0" prefWidth="547.0" AnchorPane.bottomAnchor="636.0" AnchorPane.leftAnchor="359.0" AnchorPane.rightAnchor="134.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane layoutX="242.0" layoutY="72.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="52.0" prefWidth="540.0" styleClass="parent">
+               <children>
+                  <Label layoutY="21.0" onMouseClicked="#show_personal_info" prefHeight="17.0" prefWidth="62.0" styleClass="top-label" text="Personal Info">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <FontAwesomeIcon glyphName="SUITCASE" layoutX="22.0" layoutY="17.0" size="1.5em" styleClass="top-icons">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </FontAwesomeIcon>
+                  <Label layoutX="71.0" layoutY="21.0" onMouseClicked="#sho_proInfo" prefHeight="17.0" prefWidth="77.0" styleClass="top-label" text="Professional Info">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <FontAwesomeIcon glyphName="INFO_CIRCLE" layoutX="99.0" layoutY="15.0" size="1.5em" styleClass="top-icons">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </FontAwesomeIcon>
+                  <Label layoutX="159.0" layoutY="21.0" onMouseClicked="#show_education" prefHeight="17.0" prefWidth="48.0" styleClass="top-label" text="Education">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <FontAwesomeIcon glyphName="CERTIFICATE" layoutX="177.0" layoutY="15.0" size="1.5em" styleClass="top-icons">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </FontAwesomeIcon>
+                  <Label layoutX="215.0" layoutY="21.0" onMouseClicked="#show_skills" prefHeight="17.0" prefWidth="40.0" styleClass="top-label" text="  Skills">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <FontAwesomeIcon glyphName="THUMBS_UP" layoutX="223.0" layoutY="15.0" size="1.5em" styleClass="top-icons">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </FontAwesomeIcon>
+                  <Label layoutX="263.0" layoutY="21.0" onMouseClicked="#show_goals_location" prefHeight="17.0" prefWidth="69.0" styleClass="top-label" text="Goals Location">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <FontAwesomeIcon glyphName="PLANE" layoutX="292.0" layoutY="15.0" size="1.5em" styleClass="top-icons">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </FontAwesomeIcon>
+                  <Label layoutX="342.0" layoutY="21.0" onMouseClicked="#show_visa_status" prefHeight="17.0" prefWidth="48.0" styleClass="top-label" text="Visa Status">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <FontAwesomeIcon glyphName="SPINNER" layoutX="360.0" layoutY="15.0" size="1.5em" styleClass="top-icons">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </FontAwesomeIcon>
+                  <Label layoutX="402.0" layoutY="21.0" onMouseClicked="#show_resume" prefHeight="17.0" prefWidth="113.0" styleClass="top-label" text="Resume, Video &amp; Social">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+                  <FontAwesomeIcon glyphName="CONNECTDEVELOP" layoutX="447.0" layoutY="15.0" size="1.5em" styleClass="top-icons">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </FontAwesomeIcon>
+               </children>
+               <HBox.margin>
+                  <Insets top="5.0" />
+               </HBox.margin>
+            </Pane>
+         </children>
+      </HBox>
+      
+      
+      <HBox alignment="BASELINE_CENTER" layoutX="362.0" layoutY="64.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="161.0" prefWidth="531.0" AnchorPane.bottomAnchor="475.0" AnchorPane.leftAnchor="362.0" AnchorPane.rightAnchor="147.0" AnchorPane.topAnchor="64.0">
+         <children>
+            <Pane layoutX="242.0" layoutY="145.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="160.0" prefWidth="532.0" styleClass="top-pane" AnchorPane.bottomAnchor="255.0" AnchorPane.leftAnchor="242.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="145.0">
+               <children>
+                  <Circle fx:id="center_circle" fill="DODGERBLUE" layoutX="86.0" layoutY="74.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" />
+                  <JFXButton layoutX="338.0" layoutY="75.0" prefHeight="25.0" prefWidth="69.0" styleClass="status-btn" text="Advanced" textFill="#777d80" />
+                  <Label layoutX="277.0" layoutY="75.0" prefHeight="17.0" prefWidth="56.0" text="English:" textFill="#777d80">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIcon glyphName="COMMENT" layoutX="255.0" layoutY="92.0" size="1.5em" styleClass="profile-icons" />
+                  <Label layoutX="256.0" layoutY="53.0" prefHeight="18.0" prefWidth="173.0" text="Verified Vanhacker Status:" textFill="#777d80">
+                     <font>
+                        <Font name="Lato Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="227.0" layoutY="19.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="113.0" prefWidth="1.0" styleClass="seperator" stylesheets="@stylesheet.css" />
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+      
+      
+      <HBox fx:id="personal_pane" alignment="CENTER" layoutX="362.0" layoutY="233.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="540.0" AnchorPane.bottomAnchor="34.0" AnchorPane.leftAnchor="362.0" AnchorPane.rightAnchor="138.0" AnchorPane.topAnchor="233.0">
+         <children>
+            <Pane layoutX="242.0" layoutY="272.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="540.0" styleClass="parent" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="242.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="272.0">
+               <children>
+                  <Label layoutX="4.0" layoutY="14.0" prefHeight="17.0" prefWidth="105.0" text="First name" textFill="#777d80">
+                     <font>
+                        <Font name="Lato Regular" size="13.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="4.0" layoutY="40.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="48.0" prefWidth="260.0" styleClass="form">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="284.0" layoutY="14.0" prefHeight="17.0" prefWidth="105.0" text="Last name" textFill="#777d80">
+                     <font>
+                        <Font name="Lato Regular" size="13.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="278.0" layoutY="40.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="48.0" prefWidth="260.0" styleClass="form">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="4.0" layoutY="96.0" prefHeight="17.0" prefWidth="105.0" text="Gender" textFill="#777d80">
+                     <font>
+                        <Font name="Lato Regular" size="13.0" />
+                     </font>
+                  </Label>
+                  <ChoiceBox fx:id="choiceBox" layoutX="4.0" layoutY="122.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="48.0" prefWidth="260.0" style="-fx-background-color: #fff;" styleClass="form" />
+                  <TextField layoutX="279.0" layoutY="122.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="48.0" prefWidth="260.0" styleClass="form">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="287.0" layoutY="96.0" prefHeight="17.0" prefWidth="105.0" text="English" textFill="#777d80">
+                     <font>
+                        <Font name="Lato Regular" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="6.0" layoutY="176.0" prefHeight="17.0" prefWidth="132.0" text="Professional Headline" textFill="#777d80">
+                     <font>
+                        <Font name="Lato Regular" size="13.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="6.0" layoutY="203.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="48.0" prefWidth="531.0" styleClass="form">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="4.0" layoutY="257.0" prefHeight="17.0" prefWidth="158.0" text="Tell a little about yourself" textFill="#777d80">
+                     <font>
+                        <Font name="Lato Regular" size="13.0" />
+                     </font>
+                  </Label>
+                  <TextArea layoutX="6.0" layoutY="280.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="152.0" prefWidth="531.0" styleClass="form">
+                     <font>
+                        <Font size="16.0" />
+                     </font></TextArea>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+      
+      
+      
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="40.0" styleClass="profile-sidebar" stylesheets="@stylesheet.css" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+      <AnchorPane layoutX="42.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="200.0" styleClass="profile-sidebar" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+             
+            <Pane prefHeight="113.0" prefWidth="200.0">
+               <children>
+                  <Circle fx:id="left_circle" fill="DODGERBLUE" layoutX="55.0" layoutY="57.0" radius="45.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Label layoutX="117.0" layoutY="29.0" prefHeight="17.0" prefWidth="83.0" text="Abdullahi">
+                     <font>
+                        <Font name="Lato Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="117.0" layoutY="48.0" prefHeight="17.0" prefWidth="83.0" text="Rilwan">
+                     <font>
+                        <Font name="Lato Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            
+            <JFXButton alignment="BASELINE_LEFT" graphicTextGap="40.0" layoutX="-42.0" layoutY="130.0" prefHeight="39.0" prefWidth="242.0" styleClass="profile-sidebar-btns" text="Profile">
+               <graphic>
+                  <FontAwesomeIcon glyphName="USER" size="1.5em" styleClass="profile-icons" />
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Lato Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" graphicTextGap="40.0" layoutX="-42.0" layoutY="169.0" prefHeight="39.0" prefWidth="242.0" styleClass="profile-sidebar-btns" text="Jobs">
+               <graphic>
+                  <FontAwesomeIcon glyphName="BRIEFCASE" size="1.5em" styleClass="profile-icons" />
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Lato Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" graphicTextGap="40.0" layoutX="-42.0" layoutY="208.0" prefHeight="39.0" prefWidth="242.0" styleClass="profile-sidebar-btns" text="My Jobs">
+               <graphic>
+                  <FontAwesomeIcon glyphName="LIST_ALT" size="1.5em" styleClass="profile-icons" />
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Lato Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" graphicTextGap="40.0" layoutX="-42.0" layoutY="247.0" prefHeight="39.0" prefWidth="242.0" styleClass="profile-sidebar-btns" text="Slack">
+               <graphic>
+                  <FontAwesomeIcon glyphName="SLACK" size="1.5em" styleClass="profile-icons" />
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Lato Bold" size="14.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      
+      
+   </children>
+</AnchorPane>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="415.0" style="-fx-background-color: #FFF;" styleClass="parent" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vanhackapp.TalentRegistrationUiController">
+    <children>
+        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="21.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@vanhack.jpg" />
+            </image>
+        </ImageView>
+        <Label layoutX="21.0" layoutY="188.0" prefHeight="27.0" prefWidth="166.0" text="Enter your details below" textFill="#7c7c7c">
+            <font>
+                <Font name="Ebrima" size="14.0" />
+            </font>
+        </Label>
+        <FontAwesomeIcon glyphName="CLOSE" layoutX="394.0" layoutY="20.0" onMouseClicked="#closeApp" size="1.5em" stroke="WHITE" styleClass="closeBtn" />
+        <FontAwesomeIcon glyphName="ARROW_LEFT" layoutX="7.0" layoutY="20.0" onMouseClicked="#backToMain" size="1.5em" stroke="WHITE" styleClass="closeBtn" />
+        <Label layoutX="21.0" layoutY="161.0" text="Sign Up" textFill="#2fa3e1">
+            <font>
+                <Font name="Ebrima" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="21.0" layoutY="132.0" text="Vanhack" textFill="#62bcf4">
+            <font>
+                <Font name="Impact" size="24.0" />
+            </font>
+        </Label>
+      <Label fx:id="error_label" layoutX="150.0" layoutY="218.0" prefHeight="29.0" prefWidth="177.0" style="-fx-text-fill: #f45f5f;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+        <JFXTextField fx:id="firstName" focusColor="#2fa3e1" labelFloat="true" layoutX="53.0" layoutY="249.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="250.0" promptText="First Name" unFocusColor="#2fa3e1">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </JFXTextField>
+      <JFXTextField fx:id="lastName" focusColor="#2fa3e1" labelFloat="true" layoutX="53.0" layoutY="317.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="250.0" promptText="Last Name" unFocusColor="#2fa3e1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="email" focusColor="#2fa3e1" labelFloat="true" layoutX="53.0" layoutY="388.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="250.0" promptText="Email" unFocusColor="#2fa3e1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+        <JFXPasswordField fx:id="password" focusColor="#2fa3e1" labelFloat="true" layoutX="53.0" layoutY="453.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="250.0" promptText="Password" unFocusColor="#2fa3e1">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </JFXPasswordField>
+        <JFXButton fx:id="regBtn" layoutX="53.0" layoutY="517.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#registrationBtn" prefHeight="40.0" prefWidth="250.0" styleClass="loginBtn" text="Register">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </JFXButton>
+    </children>
+</AnchorPane>

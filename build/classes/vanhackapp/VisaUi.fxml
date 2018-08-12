@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="540.0" styleClass="parent" stylesheets="@stylesheet.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="vanhackapp.VisaController">
+   <children>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="540.0">
+         <children>
+            <ChoiceBox layoutX="6.0" layoutY="193.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="48.0" prefWidth="250.0" style="-fx-background-color: #FFFFFF;" styleClass="form" />
+            <ChoiceBox layoutX="280.0" layoutY="193.0" prefHeight="48.0" prefWidth="250.0" style="-fx-background-color: #FFFFFF;" styleClass="form" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

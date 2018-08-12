@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="540.0" styleClass="parent" stylesheets="@stylesheet.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="vanhackapp.PersonalInfoController">
+   <children>
+      <Pane minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="540.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextArea layoutX="5.0" layoutY="275.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="152.0" prefWidth="531.0" styleClass="form">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextArea>
+            <Label layoutX="3.0" layoutY="252.0" prefHeight="17.0" prefWidth="158.0" text="Tell a little about yourself" textFill="#777d80">
+               <font>
+                  <Font name="Lato Regular" size="13.0" />
+               </font>
+            </Label>
+            <TextField layoutX="5.0" layoutY="198.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="48.0" prefWidth="531.0" styleClass="form">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <Label layoutX="5.0" layoutY="173.0" prefHeight="17.0" prefWidth="132.0" text="Professional Headline" textFill="#777d80">
+               <font>
+                  <Font name="Lato Regular" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="286.0" layoutY="91.0" prefHeight="17.0" prefWidth="105.0" text="English" textFill="#777d80">
+               <font>
+                  <Font name="Lato Regular" size="13.0" />
+               </font>
+            </Label>
+            <TextField layoutX="278.0" layoutY="117.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="48.0" prefWidth="260.0" styleClass="form">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <ChoiceBox fx:id="choiceBox" layoutX="3.0" layoutY="117.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="48.0" prefWidth="260.0" style="-fx-background-color: #FFFFFF;" styleClass="form" />
+            <Label layoutX="5.0" layoutY="91.0" prefHeight="17.0" prefWidth="105.0" text="Gender" textFill="#777d80">
+               <font>
+                  <Font name="Lato Regular" size="13.0" />
+               </font>
+            </Label>
+            <TextField layoutX="277.0" layoutY="35.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="48.0" prefWidth="260.0" styleClass="form">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <Label layoutX="283.0" layoutY="9.0" prefHeight="17.0" prefWidth="105.0" text="Last name" textFill="#777d80">
+               <font>
+                  <Font name="Lato Regular" size="13.0" />
+               </font>
+            </Label>
+            <TextField layoutX="3.0" layoutY="35.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="48.0" prefWidth="260.0" styleClass="form">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <Label layoutX="5.0" layoutY="9.0" prefHeight="17.0" prefWidth="105.0" text="First name" textFill="#777d80">
+               <font>
+                  <Font name="Lato Regular" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

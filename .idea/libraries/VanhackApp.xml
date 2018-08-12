@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="VanhackApp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/VanhackApp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
